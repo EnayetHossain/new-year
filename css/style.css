@@ -1,0 +1,302 @@
+/* removing all default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header section styling*/
+header {
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 43.5em;
+}
+
+.banner-container {
+    /* background-color: red; */
+    min-height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 85%;
+    color: white;
+}
+
+.banner-info {
+    /* background-color: green; */
+    max-width: 30%;
+    text-align: right;
+}
+
+.banner-title {
+    font-size: 3rem;
+}
+
+.banner-description {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 1.5em 0;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: #1b7dce;
+    font-size: 1rem;
+    padding: 1em;
+    border-radius: 0.3em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* main section styling*/
+
+/* failure stroy styling*/
+.failure-story-container {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    margin: 3em auto;
+}
+
+.failure-img img {
+    width: 450px;
+}
+
+.failure-info {
+    /* background-color: red; */
+    max-width: 350px;
+}
+
+.failure-title,
+.plan-title,
+.client-review-title,
+.call-title,
+.footer-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.failure-description {
+    color: rgb(119, 119, 119);
+}
+
+.failure-description,
+.client-review-description {
+    margin: 1.5em 0;
+    line-height: 1.5;
+}
+
+.failure-list {
+    margin: 1em 0;
+    color: rgb(119, 119, 119);
+}
+
+.failure-description,
+.failure-list {
+    font-size: 0.9rem;
+}
+
+.failure-lists {
+    list-style-type: none;
+}
+
+/* custom icons style */
+.failure-list i {
+    color: rgb(18, 202, 18);
+    margin-right: 0.5em;
+}
+
+/* plan container styling */
+.plan-container {
+    /* background-color: red; */
+    text-align: center;
+    max-width: 75%;
+    margin: 3em auto;
+}
+
+.plan-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4em;
+}
+
+.plan-heading {
+    margin: 0.5em 0;
+}
+
+.plan-description {
+    font-size: 1.2rem;
+    color: rgb(119, 119, 119);
+}
+
+/* client review section styling*/
+.client-review-container {
+    max-width: 80%;
+    margin: 10em auto 3em;
+    text-align: center;
+}
+
+.client-review-content {
+    margin: 0 2em;
+}
+
+.client-review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5em 0 0;
+}
+
+.client-image {
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.client-review-description {
+    color: rgb(119, 119, 119);
+}
+
+.client-image img {
+    width: 100%;
+}
+
+.client-name {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+/* call container section styling */
+.call-container {
+    width: 70%;
+    /* background-color: red; */
+    margin: 10em auto 4em;
+    height: 15em;
+}
+
+.call-content {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.6em;
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.call-info {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 4;
+    width: 58%;
+    transform: translateY(-50%);
+    margin-left: 3em;
+    color: white;
+}
+
+.call-title {
+    line-height: 1.3;
+    margin-bottom: 1em;
+}
+
+.call-gradient {
+    position: absolute;
+    z-index: 1;
+}
+
+.call-gradient img {
+    width: 100%;
+}
+
+/* footer section styling */
+footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.footer-content-container {
+    max-width: 70%;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding: 7em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info {
+    max-width: 40%;
+}
+
+.footer-description,
+.footer-phone {
+    margin: 1em 0;
+}
+
+.footer-description {
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+.footer-social img {
+    width: 2.3em;
+}
+
+.twitter {
+    margin: 0 1em
+}
+
+.news-title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.news-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.news-title {
+    margin-bottom: 0.5em;
+}
+
+input[type="email"] {
+    border: 1px solid white;
+    outline: none;
+    padding: 1em;
+    background-color: transparent;
+    border-radius: 0.5em;
+    color: white;
+    width: 17em;
+    font-size: 1em;
+    margin: 1em 0;
+}
+
+input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: #1b7dce;
+    color: white;
+    font-size: 1rem;
+    padding: 1em 1.4em;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-weight: 500;
+}
